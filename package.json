@@ -1,6 +1,6 @@
 {
   "name": "@xplorfin/hardhat-solc-excludes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enables the exclusion of directories and individual Solidity files from compilation in Hardhat projects.",
   "repository": "https://github.com/xplorfin/hardhat-solc-excludes",
   "author": "jalavosus",
