@@ -1,0 +1,36 @@
+{
+  "name": "@xplorfin/hardhat-solc-excludes",
+  "version": "0.1.0",
+  "description": "Enables the exclusion of directories and individual Solidity files from compilation in Hardhat projects.",
+  "repository": "https://github.com/xplorfin/hardhat-solc-excludes",
+  "author": "jalavosus",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@types/glob": "^7",
+    "glob": "^7.0.0",
+    "hardhat": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/debug": "^4.1.6",
+    "@types/glob": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.1",
+    "glob": "^7.1.7",
+    "hardhat": "^2.5.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
